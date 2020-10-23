@@ -4,7 +4,7 @@ import { SafeAreaView, Text, View, FlatList, KeyboardAvoidingView } from 'react-
 import {main} from './styles';
 import {TodoInput, TodoCard} from './components';
 
-const Main = () => {
+const Main = (props) => {
 
     const [list, setList] = useState([]);
 

@@ -12,7 +12,7 @@ import {
 
 import {Input, Button} from './components'
 
-const Login = () => {
+const Login = (login) => {
     return (
         <SafeAreaView style={{ flex: 1, backgroundColor: '#b2dfdb' }}>
             <KeyboardAvoidingView
@@ -24,10 +24,12 @@ const Login = () => {
                         <Image
                             source={require('../assets/cart.png')}
                             style={styles.logoStyle}
+                            onMagicTap
                         />
                         <Input ph="E-posta adresinizi giriniz.." />
                         <Input ph="Şifrenizi giriniz.." />
                         <Button text="Giriş Yap" />
+                       
                     </View>
                 </ScrollView>
             </KeyboardAvoidingView>

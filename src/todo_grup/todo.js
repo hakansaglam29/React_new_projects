@@ -51,7 +51,7 @@ const App = () => {
   };
   return (
     <SafeAreaView style={{flex: 1}}>
-      <View style={styles.container}>
+      <KeyboardAvoidingView style={styles.container} behavior='padding'>
         <View style={styles.header}>
           <Text style={styles.headerText1}>TODO</Text>
           <Text style={styles.headerText2}>{counter}</Text>
@@ -84,7 +84,7 @@ const App = () => {
             <Text style={styles.buttonText}>ADD TODO</Text>
           </TouchableOpacity>
         </View>
-      </View>
+      </KeyboardAvoidingView>
     </SafeAreaView>
   );
 };
@@ -135,6 +135,7 @@ const styles = StyleSheet.create({
     marginVertical: 10,
     paddingLeft: 10,
     alignSelf: 'stretch',
+    height:40,
   },
   button: {
     backgroundColor: '#546F7A',

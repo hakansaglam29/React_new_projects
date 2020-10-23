@@ -1,5 +1,5 @@
 import React from 'react';
-import { SafeAreaView, View, Text, ScrollView, Image, FlatList, Dimensions } from 'react-native';
+import { SafeAreaView, View, Text, ScrollView, Image, FlatList, Dimensions, Button } from 'react-native';
 
 import { NewsCard } from './components'
 
@@ -82,7 +82,7 @@ const b = [
     },
 ];
 
-const News = () => {
+const News = (props) => {
 
     const renderNewsData = ({ item }) => <NewsCard news={item} />
 

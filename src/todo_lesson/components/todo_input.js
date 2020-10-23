@@ -19,7 +19,6 @@ const TodoInput = (props) => {
                 props.onTodoEnter(text);
                 setText('');} 
             }>
-            
                 <Text style= {todo_input.buttonText}>Todo Input</Text>
             </TouchableOpacity>            
         </View>
