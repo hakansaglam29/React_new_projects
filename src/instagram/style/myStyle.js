@@ -3,7 +3,7 @@ import {StyleSheet, Dimensions} from 'react-native';
 const main = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#70757d',
+    backgroundColor: '#B82214',
   },
 
   header: {
@@ -64,14 +64,14 @@ const productStyle = StyleSheet.create({
     paddingLeft: 15,
     fontSize: 20,
     fontWeight: 'bold',
-    color: '#e0e0e0',
+    color: '#E3F7D4',
   },
 
   emoji: {
     fontSize: 25,
     paddingRight: 15,
     fontWeight: 'bold',
-    color: '#e0e0e0',
+    color: '#340926',
   },
 
   image: {
@@ -100,7 +100,7 @@ const productStyle = StyleSheet.create({
   },
 
   desc: {
-    color: '#e0e0e0',
+    color: '#E3F7D4',
     textAlign: 'justify',
     paddingHorizontal: 15,
     paddingBottom: 20,

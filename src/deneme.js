@@ -61,6 +61,7 @@ const styles = StyleSheet.create({
     height: 200,
     width: 200,
     opacity:1,
+    backgroundColor: "red",
   },
   buttonContainer: {
     alignSelf: "center"

@@ -28,13 +28,13 @@ const ProductItem = ({product}) => {
   };
 
   const HandleClick = () => {
-    {
+    
       setHeart(!heart);
       if (heart) {
         setOpacityHeart(0.8);
       }
       toggleThirdBox();
-    }
+    
   };
 
   React.useEffect(() => {
