@@ -13,9 +13,9 @@ import Todo_ezran from './src/todo_lesson/todo_ezran';
 import PB from './src/Portfolio_input_button/portfolioBuilding';
 import Search_Product from './src/search_product/search_product';
 import Instagram from './src/instagram/App';
-import Main from './src/main/main';
+import Restaurant from './src/restaurant/Router';
 import deneme from './src/deneme';
 
 import {name as appName} from './app.json';
 
-AppRegistry.registerComponent(appName, () => Main);
+AppRegistry.registerComponent(appName, () => Restaurant);
